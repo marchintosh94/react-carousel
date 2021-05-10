@@ -13,18 +13,22 @@ npm install --save react-carousel
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'react-carousel'
+import { ReactCarouselSlider } from 'react-carousel'
 import 'react-carousel/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App: React.FC = () => {
+
+  return (
+     <ReactCarouselSlider itemsHeight={700} itemsWidth={300} elementsMargin={10} prevIcon={prevIcon} nextIcon={nextIcon}>
+      <div></div>
+      {/* ..... */}
+     </ReactCarouselSlider>
+  )
 }
 ```
 
 ## License
 
-MIT © [marco baratto](https://github.com/marco baratto)
+MIT © [marchintosh94](https://github.com/marchintosh94/)
