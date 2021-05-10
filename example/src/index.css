@@ -6,9 +6,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fbf2e35e;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.page{
+  align-items: center;
+  padding: 0 15px;
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+}
+.title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, .7);
+  display: flex;
+  margin: 20px 0;
+  justify-content: center;
+}
+
+.Friends{
+  box-shadow: 0px 2px 7px 0px rgb(0 0 0 / 75%);
+  border-radius: 10px;
+}
+
+.Friends img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.logo-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo{
+  padding: 15px;
+  width: 60px;
 }

@@ -1,0 +1,73 @@
+/* add css module styles here (optional) */
+$icon-text-grey: rgba(0, 0, 0, .4);
+
+
+.slider-wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+    & .slider-content{
+        transition: all ease-in-out .2s;
+        width: 100%;
+        display: flex;
+        margin: auto;
+        padding: 15px 5px;
+    }
+}
+
+
+/*  Buttons */
+.button-slider{
+    height: 100%;
+    width: 5%;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: $icon-text-grey;
+    display: flex;
+    align-items: center;
+    font-size: 42px;
+    transition: all ease-in-out .2s;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.next {
+        border-radius: 0 7px 7px 0;
+        right: 0;
+    }
+    &.prev {
+        border-radius: 7px 0 0 7px;
+        left: 0;
+    }
+    &.none {
+        width: 0;
+    }
+}
+.button-slider:hover{
+    background-color: rgba($color: #000000, $alpha: .1);
+}
+.button-slider.light:hover{
+    background-color: rgba(253, 250, 244, .54);
+    color: rgba(0, 0, 0, .6);
+    border: .5px solid rgba(0,0,0,.15);
+}
+.button-slider.dark:hover{
+    color: rgba(253, 250, 244, .54);
+    background-color: rgba(0, 0, 0, .6);
+    border: .5px solid rgba(255,255,255,.15);
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .button-slider{
+        display: none;
+    }
+    .slider-content{
+        width: 100%;
+        overflow: hidden;
+    }
+}

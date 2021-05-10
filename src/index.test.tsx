@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { ReactCarouselSlider } from '.'
 
-describe('ExampleComponent', () => {
+describe('ReactCarouselSlider', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(ReactCarouselSlider).toBeTruthy()
   })
 })
