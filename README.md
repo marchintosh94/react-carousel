@@ -19,6 +19,7 @@ Horizontal infinite scroll container
 - Use custom buttons to slide the elements
 - Mobile support for scroll
 - Use predefined themes for side buttons
+- Responsive horizontal git add slider
 
 
 ## Install

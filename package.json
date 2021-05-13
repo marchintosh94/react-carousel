@@ -65,5 +65,13 @@
   "dependencies": {
     "classnames": "^2.3.1",
     "node-sass": "^5.0.0"
-  }
+  },
+  "keywords": [
+    "react",
+    "react carousel",
+    "react slider",
+    "horizontal slider",
+    "mobile slider",
+    "responsive slider",
+  ]
 }
